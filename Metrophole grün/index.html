@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+</head>
+
+<body>
+  <marquee> Willkommen zu der Metropole Grün Website </marquee>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#">
+                    <img   class="logo" src="./images/logo.png" alt="Logo">
+                </a>
+            </li>
+            <li class="nav-item nav-center">
+                <a href="#Über uns">Über uns</a>
+            </li>
+            <li class="nav-item nav-center">
+                <a href="#Was ist die Metropole Grün">Was ist die Metropole Grün</a>
+            </li>
+            <li class="nav-item nav-center">
+                <a href="#Kontakt">Kontakt</a>
+            </li>
+            <li class="nav-item nav-center"></li>
+        </ul>
+    </nav>
+    
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/m1.jpg" alt="Bild 1">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/m2.jpg" alt="Bild 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/m3.jpeg" alt="Bild 3">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/m4.jpg" alt="Bild 4">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/m6.jpeg" alt="Bild 5">
+        </div>
+      
+      </div>
+      
+      <div class="swiper-button-next">
+        <i class="fa-light fa-arrow-right"></i>
+    </div>
+    <div class="swiper-button-prev">
+      <i class="fa-sharp fa-light fa-arrow-left"></i> 
+    </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+<div class="container">
+  <div class="text" id="Was ist die Metropole Grün">
+    <h2>Was ist die Metropole Grün?</h2>
+    <p>
+      "Die Metropole Grün ist ein einzigartiger Ort, an dem sich
+       pulsierendes Stadtleben mit der Schönheit der Natur verbindet. 
+       Unser Ziel ist es, eine grüne Oase mitten in der Stadt zu schaffen, 
+       die Menschen inspiriert, entspannt und verbindet. Mit liebevoller Pflege und 
+       innovativer Gestaltung verwandeln wir jeden Raum in eine blühende
+        Umgebung, die zum Verweilen und Genießen einlädt. Willkommen 
+        in der Metropole Grün - wo Stadt und Natur harmonisch 
+        miteinander verschmelzen."    </p>
+  </div>
+  <div class="image">
+    <img src="./images/vi.gif" >
+  </div>
+</div>
+<div class="container2">
+  <div class="text2" id="Über uns">
+    <h2>Über uns</h2>
+    <p>
+      Metropole Grün ist Ihre Anlaufstelle 
+      für einzigartige Stadterlebnisse, die die Natur 
+      in den Mittelpunkt stellen. Unsere Mission ist es,
+       Ihnen zu zeigen, wie Stadtleben und Natur perfekt harmonieren können.
+    </p> 
+   <p>
+      Unser Team aus Enthusiasten teilt inspirierende Geschichten, Reiseführer und Empfehlungen, damit Sie das Beste aus beiden Welten genießen können. Entdecken Sie mit uns die grünen Seiten der Stadt und erleben Sie ein ausgewogenes und bereicherndes Stadtleben. Willkommen bei Metropole Grün!"
+  </p>
+  </div>
+  <div class="image2">
+    <img src="./images/über.gif" >
+  </div>
+</div>
+
+    
+    <footer>
+      <div class="Kontakt info" id="Kontakt" >
+        <h3>Kontakt</h3>
+        <p>Email: MetropoleGrün@beispiel.com</p>
+        <p>Telefon: 024151982123</p>
+        <p>Adresse: Konrad-Adenauer-Allee 7, 52477 Alsdorf</p>
+      </div>
+      
+      <div class="links">
+        <h3>Folge uns</h3>
+        <div class="icons">
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> instagram</a>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i> facebook</a>
+          <a href="https://www.tiktok.com" target="_blank"><i class="fab fa-tiktok"></i> tiktok</a>
+        </div>
+      </div>
+    </footer>
+    
+    </body>
+
+</html>
