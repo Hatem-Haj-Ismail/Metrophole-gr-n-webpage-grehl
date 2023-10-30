@@ -146,14 +146,15 @@ font-family: 'Montserrat', sans-serif;
   color: #fff; 
 }
 .swiper-button-next, .swiper-button-prev {
-  transition: background-color 0.3s; /* Übergangseffekt hinzugefügt */
+  transition: background-color 0.3s; 
+
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Farbe ändert sich beim Schweben */
+  background-color: rgba(0, 0, 0, 0.8); 
 }
 .swiper-pagination-bullet {
-  background-color: rgb(0, 0, 0); /* Ändere die Farbe nach deinen Wünschen */
+  background-color: rgb(0, 0, 0); 
 }
 footer {
   margin-top: 30px;
@@ -259,19 +260,19 @@ footer {
 }
 @media (max-width: 1820px) {
   .container2 {
-    flex-direction: row; /* Ändert die Anordnung zurück zu horizontal */
-    align-items: flex-start; /* Richtet die Elemente am Anfang aus */
-    text-align: left; /* Linksbündigen Text setzen */
+    flex-direction: row; 
+    align-items: flex-start; 
+    text-align: left; 
   }
 
   .text2 {
-    margin-top: 0; /* Entfernt den oberen Abstand */
-    margin-left: 850px; /* Setzt den linken Abstand zurück */
-    text-align: left; /* Linksbündigen Text setzen */
+    margin-top: 0; 
+    margin-left: 850px; 
+    text-align: left; 
   }
 
   .image2 img {
-    margin-top: 10px; /* Oberen Abstand leicht anpassen */
+    margin-top: 10px; 
     margin-left: -1450px;
     
   }
